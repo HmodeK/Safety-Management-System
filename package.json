@@ -1,0 +1,22 @@
+{
+  "name": "safety-management-system",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000S\u0000a\u0000f\u0000e\u0000t\u0000y\u0000-\u0000M\u0000a\u0000n\u0000a\u0000g\u0000e\u0000m\u0000e\u0000n\u0000t\u0000-\u0000S\u0000y\u0000s\u0000t\u0000e\u0000m\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test --reporter=allure-playwright",
+    "generate": "npx allure generate ./allure-results --clean",
+    "open": "npx allure open ./allure-report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "playwright": "^1.41.1",
+    "typescript": "^5.3.3"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.41.1",
+    "@types/node": "^20.11.10"
+  }
+}
