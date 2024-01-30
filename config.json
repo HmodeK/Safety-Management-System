@@ -1,0 +1,12 @@
+{
+    "authFile": "playwright/.auth/user.json",
+    "uiUrl": {
+        "websiteUrl": "http://app.safetymsystem.com/signin",
+        "websiteUrlAfterLogin" : "http://app.safetymsystem.com/app/index"
+    },
+    "loginPage": {
+        "userName": "iyadsaba200@gmail.com",
+        "password": "123456"
+    },
+    "companyName" : "construction"
+}
