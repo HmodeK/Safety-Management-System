@@ -2,11 +2,17 @@
     "authFile": "playwright/.auth/user.json",
     "uiUrl": {
         "websiteUrl": "http://app.safetymsystem.com/signin",
-        "websiteUrlAfterLogin" : "http://app.safetymsystem.com/app/index"
+        "websiteUrlAfterLogin": "http://app.safetymsystem.com/app/index"
     },
     "loginPage": {
         "userName": "iyadsaba200@gmail.com",
         "password": "123456"
     },
-    "companyName" : "construction"
+    "companyName": "construction",
+    "addingBuilding": {
+        "building name": "Hmode Kanaan",
+        "Total floors": "5",
+        "Total parking lots": "7",
+        "Total elevators": "2"
+    }
 }
