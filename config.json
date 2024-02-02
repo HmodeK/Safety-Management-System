@@ -14,5 +14,21 @@
         "Total floors": "5",
         "Total parking lots": "7",
         "Total elevators": "2"
+    },
+    "user": {
+        "full name": "hmode kanaan",
+        "email": "hmodekanaan5653@gmail.com",
+        "department": {
+            "Tiberias Heads website": "אתר ראשי טבריה",
+            "Acre construction site": "אתר בניה עכו",
+            "Nofim site": "אתר נופים"
+        },
+        "User permissions": {
+            "Director": "מנהל",
+            "system administrator": "מנהל מערכת",
+            "user": "משתמש"
+        },
+        "createPassword": "hmodekanaan",
+        "confirmPassword": "hmodekanaan"
     }
 }

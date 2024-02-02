@@ -6,6 +6,7 @@ export class MainPage extends BasePage{
     private  emailInput : Locator
     private passwordInput : Locator
     private submitButton : Locator
+    private tittle : Locator
 
     constructor(page:Page){
         super(page)
@@ -13,6 +14,7 @@ export class MainPage extends BasePage{
         this.emailInput  = page.locator('//input[@id="basic_email"]')
         this.passwordInput = page.locator('//input[@type="password"]')
         this.submitButton = page.locator('//button[@type="submit"]')
+        this.tittle = page.locator('//h1[@class="login-title"]')
         this.initPage()
     }
 
@@ -37,5 +39,9 @@ export class MainPage extends BasePage{
         await this.fillEmail(email)
         await this.fillPassword(password)
         await this.clickLoginButton()
+    }
+
+    getTitle = async (): Promise<string> => {
+        return await this.tittle.innerText()
     }
 }
