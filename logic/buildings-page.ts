@@ -7,7 +7,7 @@ export class BuildingsPage extends BasePage {
     private addButton: Locator
     private buildingsList: Locator
      private removeButton: Locator
-     private yesButton: Locator
+     private yesButtonPopup: Locator
 
     constructor(page: Page) {
         super(page)
@@ -15,7 +15,7 @@ export class BuildingsPage extends BasePage {
         this.addButton = page.locator('//button[@type="button"]')
         this.buildingsList = page.locator('//td[@class="ant-table-cell"]')
          this.removeButton = page.locator('//div[@class="ant-space-item"]')
-         this.yesButton = page.locator('//div[@class="ant-popover-buttons"]//button')
+         this.yesButtonPopup = page.locator('//div[@class="ant-popover-buttons"]//button')
         this.initPage()
     }
 
@@ -44,7 +44,7 @@ export class BuildingsPage extends BasePage {
         for (let i = count1-1; i >=0; i--) {
             if (i % 2 == 1 ) {
                 await this.removeButton.nth(i).click()
-                await this.yesButton.last().click()
+                await this.yesButtonPopup.last().click()
             }
             await this.page.waitForTimeout(1000)    
         }       
