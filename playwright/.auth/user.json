@@ -1,0 +1,30 @@
+{
+  "cookies": [],
+  "origins": [
+    {
+      "origin": "http://app.safetymsystem.com",
+      "localStorage": [
+        {
+          "name": "user_id",
+          "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7InNob3VsZFJlc3RQYXNzd29yZCI6ZmFsc2UsInJvbGUiOiJzdXBlckFkbWluIiwiYWN0aXZlIjp0cnVlLCJfaWQiOiI2MWZkYjIxZTI5NmViZWJlNTlhMGM3NjQiLCJuYW1lIjoi15DXmdeQ15Mg16HXkdeiIiwiZW1haWwiOiJpeWFkc2FiYTIwMEBnbWFpbC5jb20iLCJkZXBhcnRtZW50Ijp7ImFjdGl2ZSI6dHJ1ZSwiX2lkIjoiNjE1ZTE0MTNlYjY3N2Q1MTUyYWRhNjA1IiwibmFtZSI6IteQ16rXqCDXkdeg15nXlCDXoteb15UiLCJjcmVhdGVkQXQiOiIyMDIxLTEwLTA2VDIxOjI0OjM1LjM3NloiLCJ1cGRhdGVkQXQiOiIyMDIxLTEwLTE1VDAzOjQxOjQ1LjMyMVoiLCJfX3YiOjAsImNpdHkiOiLXoteb15UgIn0sInBhc3N3b3JkIjoiJDJhJDEyJExrNXJtNWNMczJmdUs0eVhOMzg3Rk9TSlRBN0tBZEJ0LmJQN2pGY2F6Wm11QlBvZDBNYmplIiwiY29tcGFueSI6eyJuZWVkSW5pdCI6ZmFsc2UsInNlY3RvciI6IteQ15fXqCIsInRpZXIiOiJtdWx0aSIsInR5cGUiOiLXkdeg15nXlCIsImlzU2FmZXR5UGxhbk5lZWRlZCI6dHJ1ZSwiYWN0aXZlIjp0cnVlLCJfaWQiOiI2MTNiOTc2Nzg5OTgyZDRjZGIwNmNkMjEiLCJuYW1lIjoiY29uc3RydWN0aW9uIiwiYXBwTmFtZSI6ImNvbnN0cnVjdGlvbiIsInByaXZhdGVOdW1iZXIiOjMzMzU0MzMzLCJfX3YiOjB9LCJfX3YiOjAsImNyZWF0ZWRBdCI6IjIwMjItMDYtMThUMjI6MDY6NDUuMTAxWiIsInVwZGF0ZWRBdCI6IjIwMjMtMDktMTJUMTc6MDM6NDEuMDI4WiJ9LCJpYXQiOjE3MDcyNTE5ODIsImV4cCI6MTcwOTg0Mzk4Mn0.QfqKKenA5DpQWHYXY2EQGvlb3_8jR8jOPZ78-NDxbpA"
+        },
+        {
+          "name": "app_name",
+          "value": "construction"
+        },
+        {
+          "name": "company",
+          "value": "{\"needInit\":false,\"sector\":\"אחר\",\"tier\":\"multi\",\"type\":\"בניה\",\"isSafetyPlanNeeded\":true,\"name\":\"construction\",\"appName\":\"construction\"}"
+        },
+        {
+          "name": "user-role",
+          "value": "superAdmin"
+        },
+        {
+          "name": "selectedDepartment",
+          "value": "{\"active\":true,\"_id\":\"615e1413eb677d5152ada605\",\"name\":\"אתר בניה עכו\",\"createdAt\":\"2021-10-06T21:24:35.376Z\",\"updatedAt\":\"2021-10-15T03:41:45.321Z\",\"__v\":0,\"city\":\"עכו \"}"
+        }
+      ]
+    }
+  ]
+}
