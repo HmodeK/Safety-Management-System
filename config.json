@@ -10,22 +10,22 @@
     },
     "companyName": "construction",
     "addingBuilding": {
-        "building name": "Hmode Kanaan",
-        "Total floors": "5",
-        "Total parking lots": "7",
-        "Total elevators": "2"
+        "buildingName": "Hmode Kanaan",
+        "totalFloors": "5",
+        "totalParkingLots": "7",
+        "totalElevators": "2"
     },
     "user": {
-        "full name": "hmode kanaan",
+        "fullName": "hmode kanaan",
         "email": "hmodekanaan5653@gmail.com",
         "department": {
-            "Tiberias Heads website": "אתר ראשי טבריה",
-            "Acre construction site": "אתר בניה עכו",
-            "Nofim site": "אתר נופים"
+            "acreConstructionSite": "אתר בניה עכו",
+            "nofimSite": "אתר נופים",
+            "tiberiasHeadsWebsite": "אתר ראשי טבריה"
         },
-        "User permissions": {
-            "Director": "מנהל",
-            "system administrator": "מנהל מערכת",
+        "userPermissions": {
+            "director": "מנהל",
+            "systemAdministrator": "מנהל מערכת",
             "user": "משתמש"
         },
         "createPassword": "hmodekanaan",

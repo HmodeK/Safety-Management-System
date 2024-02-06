@@ -2,7 +2,7 @@ import { BasePage } from "../infra/browser/base-page";
 import { Locator,Page } from "playwright";
 import { waitForElementToBeVisible, waitForTimeOut } from "../infra/utils/wait-for-elements";
 
-export class AddingBuildingPage extends BasePage {
+export class AddingNewBuildingPage extends BasePage {
 
     private buildingName : Locator
     private totalFloors : Locator
