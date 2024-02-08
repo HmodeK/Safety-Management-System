@@ -1,27 +1,25 @@
 import { BasePage } from "../infra/browser/base-page";
 import { Locator,Page } from "playwright";
-import { waitForTimeOut } from "../infra/utils/wait-for-elements";
 
 export class HomePage extends BasePage {
 
-    private buildingsIcon : Locator
+    private listOfIcons : Locator
     private navigatelogoutIcon : Locator
     private logoutButton : Locator
     private SystemSettings : Locator
 
-
-
     constructor(page:Page){
         super(page)
-        this.buildingsIcon = page.locator('//div[@class="card-child"]')
+        this.listOfIcons = page.locator('//div[@class="card-child"]')
         this.navigatelogoutIcon = page.locator('//*[@id="root"]/section/div/div[1]/div/span')
         this.logoutButton = page.locator('//ul[@class="gx-user-popover"]//li')
         this.SystemSettings = page.locator('//div[@class="ant-card-body"]')//5
+      
         this.initPage()
     }
 
     clickBuildingsIcon =async () => {
-        await this.buildingsIcon.nth(3).click()
+        await this.listOfIcons.nth(3).click()
     }
 
     clickLogoutIcon =async () => {
@@ -41,4 +39,9 @@ export class HomePage extends BasePage {
     clickSystemSettings =async () => {
         await this.SystemSettings.nth(5).click()
     }
+    
+    clickSafetyAssistantListIcon =async () => {
+        await this.listOfIcons.nth(1).click()
+    }
+
 }
